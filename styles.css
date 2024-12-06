@@ -12,6 +12,34 @@ body {
     text-align: center;
 }
 
+/* Центрируем заголовок */
+.header h1 {
+    text-align: center;
+}
+
+/* Устанавливаем стили для контейнера .header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px; /* Отступ сверху для улучшения внешнего вида */
+}
+
+/* Стилизация навигационного меню */
+.nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 20px; /* Расстояние между пунктами меню */
+}
+
+.nav a {
+    color: #333; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+
 .nav {
     margin-top: 10px;
 }
