@@ -57,6 +57,13 @@ body {
 
 }
 
+
+nav {
+    background-image: url('../images/Монтажер.jpg'); /* Указываем путь к изображению */
+    background-size: cover; /* Растягиваем изображение на весь фон элемента */
+    background-position: center; /* Центрируем изображение */
+    background-repeat: no-repeat; /* Запрещаем повторение изображения */
+}
 .nav a {
     color: #333; /* Цвет ссылок */
     text-decoration: none;
@@ -131,12 +138,12 @@ th, td {
 }
 
 th {
-    background-color: Grey; /* Мягкий зеленый цвет для заголовков таблиц */
-    color: #333; /* Темный цвет текста */
+    background-color: rgb(120, 78, 226); /* Мягкий зеленый цвет для заголовков таблиц */
+    color: #daf6ff; /* Темный цвет текста */
 }
 
 tbody tr:hover {
-    background-color: #f1f1f1; /* Подсветка строки при наведении */
+    background-color: #10cdee; /* Подсветка строки при наведении */
 }
 
 footer {
@@ -152,7 +159,7 @@ footer {
 /* Стили для цитат */
 blockquote {
     font-style: italic;
-    color: #7fc5c8; /* Мягкий серый цвет текста цитаты */
+    color: #3c5655; /* Мягкий серый цвет текста цитаты */
     border-left: 4px solid #99497a; /* Зеленая линия слева */
     padding-left: 15px; /* Отступ слева */
     margin: 20px 0; /* Отступ сверху и снизу */
