@@ -29,7 +29,7 @@ footer {
 }
 
 .header {
-    background-image: url('"C:\Users\alino\OneDrive\Рабочий стол\GitVeb\7 задание\7 задание\images\Монтажер.jpg"');
+    background-image: url("C:\Users\alino\OneDrive\Рабочий стол\GitVeb\7 задание\7 задание\images\Монтажер.jpg");
     background-size: cover;
     background-position: center;
     height: 250px;
