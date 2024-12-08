@@ -16,7 +16,7 @@ body {
     margin: 0 15px;
 }
 .nav-list a {
-    color: yellow; /* Цвет ссылок */
+    color: rgb(44, 91, 171); /* Цвет ссылок */
     text-decoration: none; /* Убираем подчеркивание */
 }
 .main-content {
@@ -40,22 +40,16 @@ footer {
     justify-content: center;
     text-align: center;
     font-weight: bold; /* Добавили жирный шрифт */
+    margin-top: 50px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Добавили тень к тексту */
 }
+
 
 /* Центрируем заголовок */
 .header h1 {
     text-align: center;
 }
 
-/* Устанавливаем стили для контейнера .header */
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px; /* Отступ сверху для улучшения внешнего вида */
-}
 
 /* Стилизация навигационного меню */
 .nav ul {
@@ -150,7 +144,7 @@ tbody tr:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #A9A9A9; /* Мягкий синий цвет */
+    background-color: #a03896; /* Мягкий фиолетовый цвет */
     color: white;
     position: relative;
     bottom: 0;
@@ -160,8 +154,8 @@ footer {
 /* Стили для цитат */
 blockquote {
     font-style: italic;
-    color: #555; /* Мягкий серый цвет текста цитаты */
-    border-left: 4px solid #b2e0b2; /* Зеленая линия слева */
+    color: #7fc5c8; /* Мягкий серый цвет текста цитаты */
+    border-left: 4px solid #99497a; /* Зеленая линия слева */
     padding-left: 15px; /* Отступ слева */
     margin: 20px 0; /* Отступ сверху и снизу */
 }
