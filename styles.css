@@ -4,6 +4,29 @@ body {
     padding: 0;
     background-color: #C0C0C0;
 }
+.nav {
+    margin-top: 45px;
+}
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+.nav-list li {
+    display: inline;
+    margin: 0 15px;
+}
+.nav-list a {
+    color: yellow; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.main-content {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #808080;
+}
 
 .header {
     background-image: url('"C:\Users\alino\OneDrive\Рабочий стол\GitVeb\7 задание\7 задание\images\Монтажер.jpg"');
