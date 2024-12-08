@@ -57,7 +57,7 @@ footer {
     padding-left: 0;
     display: flex;
     gap: 20px; /* Расстояние между пунктами меню */
-    background-image: url("C:\Users\alino\OneDrive\Рабочий стол\GitVeb\7 задание\7 задание\images\Монтажер.jpg");
+    background-image: url("../images/Монтажер.jpg");
 
 }
 
