@@ -57,6 +57,8 @@ footer {
     padding-left: 0;
     display: flex;
     gap: 20px; /* Расстояние между пунктами меню */
+    background-image: url("C:\Users\alino\OneDrive\Рабочий стол\GitVeb\7 задание\7 задание\images\Монтажер.jpg");
+
 }
 
 .nav a {
@@ -145,7 +147,7 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #a03896; /* Мягкий фиолетовый цвет */
-    color: white;
+    color: rgb(82, 191, 210);
     position: relative;
     bottom: 0;
     width: 100%;
