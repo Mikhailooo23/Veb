@@ -53,25 +53,37 @@ body {
     padding-left: 0;
     display: flex;
     gap: 20px; /* Расстояние между пунктами меню */
-    background-image: url("./images/Монтажер.jpg");
-
+    
 }
 
 
-nav {
-    background-image: url('./images/Монтажер.jpg'); /* Указываем путь к изображению */
-    background-size: cover; /* Растягиваем изображение на весь фон элемента */
-    background-position: center; /* Центрируем изображение */
-    background-repeat: no-repeat; /* Запрещаем повторение изображения */
-}
 .nav a {
-    color: #333; /* Цвет ссылок */
+    color: #333;
     text-decoration: none;
 }
 
-
 .nav {
     margin-top: 10px;
+}
+
+/* Добавленные правила для пунктов меню */
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    background-color: rgb(34, 103, 99);
+    color: rgb(196, 209, 212);
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav ul li a:hover {
+    transform: scale(1.05);
+    background-color: rgb(55, 147, 223);
 }
 
 .nav-list {
