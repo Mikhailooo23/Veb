@@ -73,11 +73,12 @@ body {
 
 .nav ul li a {
     display: block;
-    padding: 10px 15px;
+    padding: 10px 30px;
     background-color: rgb(34, 103, 99);
     color: rgb(196, 209, 212);
     text-align: center;
     text-decoration: none;
+    border-radius: 50%;
     transition: all 0.3s ease;
 }
 
