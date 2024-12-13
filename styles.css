@@ -53,13 +53,13 @@ body {
     padding-left: 0;
     display: flex;
     gap: 20px; /* Расстояние между пунктами меню */
-    background-image: url("../images/Монтажер.jpg");
+    background-image: url("./images/Монтажер.jpg");
 
 }
 
 
 nav {
-    background-image: url('../images/Монтажер.jpg'); /* Указываем путь к изображению */
+    background-image: url('./images/Монтажер.jpg'); /* Указываем путь к изображению */
     background-size: cover; /* Растягиваем изображение на весь фон элемента */
     background-position: center; /* Центрируем изображение */
     background-repeat: no-repeat; /* Запрещаем повторение изображения */
