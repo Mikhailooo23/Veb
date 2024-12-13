@@ -111,6 +111,25 @@ h1, h2 {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);   
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Стили для компетенций */
+.container img {
+    width: 200px; /* Устанавливаем ширину изображения */
+    margin: 15px; /* Отступ между изображениями */
+    transition: transform .2s ease-in-out; /* Плавный переход при увеличении */
+}
+
+.container img:hover {
+    transform: scale(1.1); /* Увеличиваем изображение на 10% */
+}
+
+
 img {
     max-width: 70%; /* Ограничиваем ширину изображения до 60% от ширины контейнера */
     height: auto; /* Сохраняем пропорции изображения */
