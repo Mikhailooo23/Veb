@@ -112,6 +112,7 @@ h1, h2 {
 }
 
 .container {
+    background-color: rgb(17, 209, 209); /* Добавляем темно-зеленый фон */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,7 +121,7 @@ h1, h2 {
 
 /* Стили для компетенций */
 .container img {
-    width: 200px; /* Устанавливаем ширину изображения */
+    width: 90px; /* Устанавливаем ширину изображения */
     margin: 15px; /* Отступ между изображениями */
     transition: transform .2s ease-in-out; /* Плавный переход при увеличении */
 }
