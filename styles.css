@@ -108,8 +108,7 @@ h1, h2 {
     margin: auto;
     background-color: #96b3b4;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Выравниваем текст по центру */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);   
 }
 
 img {
@@ -157,8 +156,8 @@ tbody tr:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #4f8284; /* цвет ноги */
-    color: rgb(82, 191, 210);
+    background-color: #22c4c9; /* цвет ноги */
+    color: #99497a;
     position: relative;
     bottom: 0;
     width: 100%;
