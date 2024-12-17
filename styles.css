@@ -199,6 +199,19 @@ footer {
     width: 100%;
 }
 
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    height: 32px; /* Размер иконок */
+    transition: transform .3s ease-in-out; /* Анимация при наведении */
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Увеличение иконки при наведении */
+}
 /* Стили для цитат */
 blockquote {
     font-style: italic;
